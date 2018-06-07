@@ -68,7 +68,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 		            <!-- Logo -->
 		            <a href="<?php echo base_url()?>Admin" class="navbar-brand g-color-white">
-		              <img src="<?php echo base_url()?>assets/img/content/logo-SB.png">
+		              <img src="<?php echo base_url()?>assets/img/content/logo-white.jpeg">
 		            </a>
 		            <!-- End Logo -->
 
@@ -76,16 +76,16 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
 		              <ul class="navbar-nav ml-auto text-uppercase  g-font-weight-600 u-main-nav-v2 u-sub-menu-v2">
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Admin" class="nav-link g-color-white">Home</a>
+		                  <a href="<?php echo base_url()?>" class="nav-link g-color-white">Home</a>
 		                </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Event/display" class="nav-link g-color-white">Produk</a>
+		                  <a href="<?php echo base_url()?>Home/produk" class="nav-link g-color-white">Produk</a>
 		                </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>Event/display" class="nav-link g-color-white">Tentang Kami</a>
 		                </li>
  						<li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Event/display" class="nav-link g-color-white">Kontak Kami</a>
+		                  <a href="<?php echo base_url()?>Home/kontak" class="nav-link g-color-white">Kontak Kami</a>
 		                </li>
 		               
 		              
