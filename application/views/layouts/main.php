@@ -67,7 +67,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		            <!-- End Responsive Toggle Button -->
 
 		            <!-- Logo -->
-		            <a href="<?php echo base_url()?>Admin" class="navbar-brand g-color-white">
+		            <a href="<?php echo base_url()?>" class="navbar-brand g-color-white">
 		              <img src="<?php echo base_url()?>assets/img/content/logo-SB-putih.png">
 		            </a>
 		            <!-- End Logo -->
