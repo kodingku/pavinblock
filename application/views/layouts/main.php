@@ -68,7 +68,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 		            <!-- Logo -->
 		            <a href="<?php echo base_url()?>Admin" class="navbar-brand g-color-white">
-		              <img src="<?php echo base_url()?>assets/img/content/logo-white.jpeg">
+		              <img src="<?php echo base_url()?>assets/img/content/logo-SB-putih.png">
 		            </a>
 		            <!-- End Logo -->
 
@@ -82,7 +82,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		                  <a href="<?php echo base_url()?>Home/produk" class="nav-link g-color-white">Produk</a>
 		                </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Event/display" class="nav-link g-color-white">Tentang Kami</a>
+		                  <a href="<?php echo base_url()?>Home/about" class="nav-link g-color-white">Tentang Kami</a>
 		                </li>
  						<li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>Home/kontak" class="nav-link g-color-white">Kontak Kami</a>
@@ -150,10 +150,10 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 	  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	  <script src="<?php echo base_url();?>assets/js/hs.text-slideshow.js"></script>
 	  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	  <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=m918d3iqh1nsgsiv3fn78umj3zam4hvy2qoikw0giohqiujs"></script>
+	  
 
 
-  	  <script>tinymce.init({ selector:'textarea' });</script>
+  	  
 	  
 	  <script type="text/javascript">
 	  		$(document).ready(function(){
@@ -173,16 +173,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     			$.HSCore.components.HSPopup.init('.js-fancybox');
     			 $.HSCore.components.HSCarousel.init('.js-carousel');
                 // initialization of text animation (typing)
-		        $(".u-text-animation.u-text-animation--typing").typed({
-		          strings: [
-		            "ya disini",
-		            "Belajarnya ya disini",
-		            "serunya ya disini"
-		          ],
-		          typeSpeed: 60,
-		          loop: true,
-		          backDelay: 1500
-		        });
+		        
 		        // initialization of counters
                 var counters = $.HSCore.components.HSCounter.init('[class*="js-counter"]');
 

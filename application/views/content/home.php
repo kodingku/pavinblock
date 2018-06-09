@@ -7,9 +7,11 @@
 	</div>
 </section>
 <section class="g-mt-50 g-mb-30">
-	<h1 class="text-center">Selamat Datang</h1>
+	<h1 class="text-center">SINAR BARU CONBLOCK BOGOR</h1>
 	<p class="text-center">
-		Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.
+		Sinar Baru Conblock adalah pabrik pembuatan Paving Block, Buis Beton, Genteng Beton, Grass Blok, Loster Beton, U-Dicth. Lokasi pabrik kami terletak di Cibinong, Kabupaten Bogor. Dengan harga murah dan negotiable sesuai dengan jumlah pemesanan dan jarak tempuhnya. Dan kami juga menyediakan jasa pemasangan.
+		Sinar Baru Conblock adalah pabrik yang bergerak dibidang Precast, kami menjamin kualitas mutu dari produk kami. Dan kami sangat siap untuk memenuhi kebutuhan precast pada project pemerintah maupun swasta. 
+
 	</p>
 </section>
 <section id="powered" class="text-center g-py-80">

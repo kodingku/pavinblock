@@ -21,4 +21,9 @@
         $data['main'] = "content/kontak";
         $this->load->view('layouts/main',$data);
       }
+      public function about(){
+
+        $data['main'] = "content/about";
+        $this->load->view('layouts/main',$data);
+      }
   	}
