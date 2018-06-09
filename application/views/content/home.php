@@ -3,7 +3,7 @@
 		<div><img src="<?php echo base_url();?>assets/img/slider/1.jpg" class="img-fluid" style="width: 100%;"></div>
 		<div><img src="<?php echo base_url();?>assets/img/slider/2.jpg" class="img-fluid" style="width: 100%;"></div>
 		<div><img src="<?php echo base_url();?>assets/img/slider/3.jpg" class="img-fluid" style="width: 100%;"></div>
-		
+		<div><img src="<?php echo base_url();?>assets/img/slider/4.jpg" class="img-fluid" style="width: 100%;"></div>
 	</div>
 </section>
 <section class="g-mt-50 g-mb-30">
