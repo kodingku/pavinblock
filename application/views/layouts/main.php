@@ -17,7 +17,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"> 	
-
+    	<link rel="shortcut icon" href="<?php echo base_url()?>assets/img/icon.png">
       <!-- CSS Global Compulsory -->
 	  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 
@@ -43,7 +43,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 	   <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/jquery-ui.min.css">
 
 	   <link rel="stylesheet" href="<?php echo base_url();?>assets/js/slick-carousel/slick/slick.css">
-
+	   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
 	   <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css">
 
 
@@ -76,7 +76,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
 		              <ul class="navbar-nav ml-auto text-uppercase  g-font-weight-600 u-main-nav-v2 u-sub-menu-v2">
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>" class="nav-link g-color-white">Home</a>
+		                  <a href="<?php echo base_url()?>" class="nav-link g-color-white"> Home</a>
 		                </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>Home/produk" class="nav-link g-color-white">Produk</a>
@@ -147,13 +147,22 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 
 	  <!-- plugin commons -->
+	  
+  
 	  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	  <script src="<?php echo base_url();?>assets/js/hs.text-slideshow.js"></script>
 	  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	  
+	  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
 
 
-  	  
+  	   <script type="text/javascript">
+        $(document).ready(function(){
+            $('#material').DataTable({
+              scrollX : true
+            });
+           
+          });
+    </script>
 	  
 	  <script type="text/javascript">
 	  		$(document).ready(function(){
@@ -194,5 +203,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 			    });
 
 	  </script>
+
+	 
 </body>
 </html>
