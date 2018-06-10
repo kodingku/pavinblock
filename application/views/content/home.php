@@ -74,7 +74,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/about" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Bata</a>
+            <a href="<?php echo base_url() ?>Home/displayBata" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Bata</a>
           </h3>
         </header>
       </article>
