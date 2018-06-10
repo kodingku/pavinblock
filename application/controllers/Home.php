@@ -26,4 +26,9 @@
         $data['main'] = "content/about";
         $this->load->view('layouts/main',$data);
       }
+      public function displayBata(){
+        $data['data_bata'] = $this->material_model->getBata();
+        $data['main'] = "content/displayBata";
+        $this->load->view('layouts/main',$data);
+      }
   	}
