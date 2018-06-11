@@ -19,7 +19,7 @@
     <div class="col-lg-6 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url();?>assets/img/core/profile.jpg" alt="Image Description">
         </figure>
 
@@ -37,7 +37,7 @@
     <div class="col-lg-6 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url();?>assets/img/core/contact.jpg" alt="Image Description">
         </figure>
 
@@ -65,7 +65,7 @@
     <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/bata.png" alt="Image Description">
         </figure>
 
@@ -74,7 +74,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayBata" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Bata</a>
+            <a href="<?php echo base_url() ?>Home/displayBata" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Bata</a>
           </h3>
         </header>
       </article>
@@ -84,7 +84,7 @@
     <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/cacing.png" alt="Image Description">
         </figure>
 
@@ -93,7 +93,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Cacing</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Cacing</a>
           </h3>
         </header>
       </article>
@@ -103,7 +103,7 @@
      <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/segienam.png" alt="Image Description">
         </figure>
 
@@ -112,7 +112,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Segi Enam</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Segi Enam</a>
           </h3>
         </header>
       </article>
@@ -122,7 +122,7 @@
      <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/fullpave.png" alt="Image Description">
         </figure>
 
@@ -131,7 +131,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Full Pave</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Full Pave</a>
           </h3>
         </header>
       </article>
@@ -145,7 +145,7 @@
     <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/buisbeton.png" alt="Image Description">
         </figure>
 
@@ -154,7 +154,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/about" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton</a>
+            <a href="<?php echo base_url() ?>Home/about" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton</a>
           </h3>
         </header>
       </article>
@@ -164,7 +164,7 @@
     <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/buisbetonbelah.png" alt="Image Description">
         </figure>
 
@@ -173,7 +173,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton Belah</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton Belah</a>
           </h3>
         </header>
       </article>
@@ -183,7 +183,7 @@
      <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/topiuskup.png" alt="Image Description">
         </figure>
 
@@ -192,7 +192,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Topi Uskup</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Topi Uskup</a>
           </h3>
         </header>
       </article>
@@ -202,7 +202,7 @@
      <div class="col-lg-3 g-mb-30">
       <!-- Article -->
       <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_3--after">
+        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
           <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/trihex.png" alt="Image Description">
         </figure>
 
@@ -211,7 +211,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-bluegray g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Trihex</a>
+            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Trihex</a>
           </h3>
         </header>
       </article>
