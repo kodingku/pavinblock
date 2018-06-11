@@ -51,9 +51,8 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 </head>
 <body style="font-family: 'Space Mono', monospace;">
 
-	<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="500">
-			
-		      <div class="u-header__section u-header__section--dark g-bg-black g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-bg-black g-py-10" data-header-fix-moment-classes="g-bg-black-opacity-0_7 u-shadow-v18 g-py-0">
+	<header id="js-header" class="u-header u-header--abs-top u-header--show-hide u-header--change-appearance" data-header-fix-moment="500" data-header-fix-effect="slide">
+      <div class="u-header__section u-header__section--dark g-bg-primary g-py-5" data-header-fix-moment-exclude="g-bg-primary" >
 		        <nav class="js-mega-menu navbar navbar-expand-lg">
 		          <div class="container">
 		            <!-- Responsive Toggle Button -->
@@ -78,9 +77,31 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>" class="nav-link g-color-white"> Home</a>
 		                </li>
-		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Home/produk" class="nav-link g-color-white">Produk</a>
-		                </li>
+		                
+		                 <li class="nav-item hs-has-sub-menu g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg">
+			                  <a href="#!" class="nav-link" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Produk</a>
+			                  <!-- Submenu -->
+			                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
+			                    <li><a href="<?php echo base_url()?>/Home/displayBata">Bata</a>
+			                    </li>
+			                    
+			                    <li><a href="#!">Cacing</a>
+			                    </li>
+			                    <li><a href="#!">Segi Enam</a>
+			                    </li>
+			                    <li><a href="#!">Trihex</a>
+			                    </li>
+			                    <li><a href="#!">Full Pave</a>
+			                    </li>
+			                    <li><a href="#!">Topi Uskup</a>
+			                    </li>
+			                    <li><a href="#!">Buis Beton</a>
+			                    </li>
+			                    <li><a href="#!">Buis Beton Belah</a>
+			                    </li>
+			                  </ul>
+			                  <!-- End Submenu -->
+			            </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>Home/about" class="nav-link g-color-white">Tentang Kami</a>
 		                </li>
@@ -107,9 +128,9 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 
 
-	<footer class="footer text-center g-bg-black">
+	<footer class="footer text-center g-bg-primary">
       <div class="container">
-        <span class="text-muted">2018 &copy; Indotrans Data</span>
+        <span class="text-muted g-color-white">2018 &copy; Indotrans Data</span>
       </div>
     </footer>	
 
