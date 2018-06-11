@@ -24,3 +24,17 @@
     </table>
 
 </section>
+<section class="container">
+    <div class="u-shadow-v1-5 g-line-height-2 g-pa-40 g-mb-30" role="alert">
+      <h3 class="h2 g-font-weight-300 g-mb-20">Keterangan</h3>
+      <p class="mb-0">
+        <ul>
+            <li>Harga diatas belum termasuk PPN 10% </li>
+            <li>Harga sudah termasuk ongkos kirim untuk area .........</li>
+            <li>Biaya koordinasi lingkungan / kuli preman proyek ditanggung pihak pembeli</li>
+            <li>Harga bisa negotiable tergantung jarak pengiriman dan jumlah pesanan</li>
+            <li>Kami menyediakan Jasa Pemasangan Paving Block</li>
+        </ul>
+      </p>
+    </div>
+</section>
