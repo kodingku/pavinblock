@@ -79,7 +79,7 @@ if ($this->session->userdata('logged_in'))
 	                      <a id="nav-link--pages--about" class="nav-link g-color-white" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">Produk</a>
 
 	                      <!-- Submenu (level 2) -->
-	                      <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--pages--about" aria-labelledby="nav-link--pages--about">
+	                      <ul class="hs-sub-menu " id="nav-submenu--pages--about" aria-labelledby="nav-link--pages--about">
 	                        <li class="dropdown-item ">
 	                          <a class="nav-link" href="<?php echo base_url()?>Bata/display">Bata</a>
 	                        </li>
