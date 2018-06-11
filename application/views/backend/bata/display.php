@@ -1,10 +1,10 @@
 
 <!-- delete notification -->
-<?php if ($this->session->flashdata('modul_delete')): ?>
+<?php if ($this->session->flashdata('material_delete')): ?>
   <div class="alert alert-success">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <strong>
-      <?php echo $this->session->flashdata('modul_delete'); ?>
+      <?php echo $this->session->flashdata('material_delete'); ?>
     </strong> 
   </div>
   <?php endif; ?>
@@ -20,11 +20,11 @@
   <?php endif; ?>
 
 <!-- edit notification -->
-    <?php if ($this->session->flashdata('modul_edit')): ?>
+    <?php if ($this->session->flashdata('material_edit')): ?>
   <div class="alert alert-success">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <strong>
-      <?php echo $this->session->flashdata('modul_edit'); ?>
+      <?php echo $this->session->flashdata('material_edit'); ?>
     </strong> 
   </div>
   <?php endif; ?>
@@ -38,6 +38,7 @@
             <th style="background-color: #47d147;color: #fff;">Tebal</th>
             <th style="background-color: #ffad33;color: #fff;">Harga(Rp) / m2</th>
             <th style="background-color: #444;color: #fff;">Isi / m2</th>
+            <th style="background-color: red;color: #fff;">Action</th>
         </tr>
     </thead>
    
@@ -47,6 +48,10 @@
     		<td><?php echo $value->tebal; ?></td>
     		<td><?php echo number_format($value->harga); ?></td>
     		<td><?php echo $value->isi; ?></td>
+        <td>
+          <a href="<?php echo base_url()?>Bata/update/<?php echo $value->id_pavin ?>" class="btn btn-md u-btn-orange g-mr-10 g-mb-15">Edit</a>
+          <a href="<?php echo base_url()?>Bata/delete/<?php echo $value->id_pavin ?>" class="btn btn-md u-btn-red g-mr-10 g-mb-15">Hapus</a>
+        </td>
     	</tr>	
     	<?php } ?>
     </tbody>	
