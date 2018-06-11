@@ -70,4 +70,41 @@
 
 		}
 	}
+
+	public function delete($id){
+
+		$this->material_model->delete_bata($id);
+		$this->session->set_flashdata('material_delete','Hapus data sukses');
+		redirect('Bata/display');
+	}
+
+	public function update($bata_id){
+
+		$this->form_validation->set_rules('tebal','Tebal','trim');
+		$this->form_validation->set_rules('harga','Harga','trim');
+		$this->form_validation->set_rules('isi','Isi','trim');
+		if ($this->form_validation->run() == FALSE) {
+			
+			$data['data_bata'] = $this->material_model->get_bata_info($bata_id);
+
+			$data['main_admin'] = "backend/bata/editBata";
+
+
+			$this->load->view('layouts/dashboard',$data);
+		}
+
+		else {
+
+			$data = array(
+
+				'tebal' => $this->input->post('tebal'),
+				'harga' => $this->input->post('harga'),
+				'isi' => $this->input->post('isi')
+			);
+			if ($this->material_model->edit_bata($bata_id,$data)) {
+				$this->session->set_flashdata('material_edit','Edit data Berhasil');
+				redirect('Bata/display');
+			}
+		}
+	}
  }
