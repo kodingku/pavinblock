@@ -102,6 +102,17 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 			                  </ul>
 			                  <!-- End Submenu -->
 			            </li>
+			            <li class="nav-item hs-has-sub-menu g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg">
+			                  <a href="#!" class="nav-link" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Services</a>
+			                  <!-- Submenu -->
+			                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
+			                    <li><a href="<?php echo base_url()?>/Home/jasaPaving">Jasa Pemasangan Paving Block</a>
+			                    </li>
+			                    
+			                    
+			                  </ul>
+			                  <!-- End Submenu -->
+			            </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
 		                  <a href="<?php echo base_url()?>Home/about" class="nav-link g-color-white">Tentang Kami</a>
 		                </li>
@@ -128,9 +139,9 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 
 
-	<footer class="footer text-center g-bg-primary">
+	<footer class="footer text-center g-bg-black">
       <div class="container">
-        <span class="text-muted g-color-white">2018 &copy; Indotrans Data</span>
+        <span class="text-muted g-color-white">2018 &copy; Sinar Baru Conblock Bogor</span>
       </div>
     </footer>	
 
