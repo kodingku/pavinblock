@@ -11,11 +11,7 @@
   			$data['main'] = "content/home";
   			$this->load->view('layouts/main',$data);
   		}
-      public function produk(){
-
-        $data['main'] = "content/produk";
-        $this->load->view('layouts/main',$data);
-      }
+      
       public function kontak(){
 
         $data['main'] = "content/kontak";
@@ -26,6 +22,8 @@
         $data['main'] = "content/about";
         $this->load->view('layouts/main',$data);
       }
+
+      // display material //
       public function displayBata(){
         $data['data_bata'] = $this->material_model->getBata();
         $data['main'] = "content/displayBata";
