@@ -22,6 +22,11 @@
         $data['main'] = "content/about";
         $this->load->view('layouts/main',$data);
       }
+      public function jasaPaving(){
+
+        $data['main'] = "content/jasaPaving";
+        $this->load->view('layouts/main',$data);
+      }
 
       // display material //
       public function displayBata(){
