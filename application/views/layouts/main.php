@@ -85,19 +85,19 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 			                    <li><a href="<?php echo base_url()?>/Home/displayBata">Bata</a>
 			                    </li>
 			                    
-			                    <li><a href="#!">Cacing</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayCacing">Cacing</a>
 			                    </li>
-			                    <li><a href="#!">Segi Enam</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displaySegienam">Segi Enam</a>
 			                    </li>
-			                    <li><a href="#!">Trihex</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayTrihex">Trihex</a>
 			                    </li>
-			                    <li><a href="#!">Full Pave</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayFullpave">Full Pave</a>
 			                    </li>
-			                    <li><a href="#!">Topi Uskup</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayUskup">Topi Uskup</a>
 			                    </li>
-			                    <li><a href="#!">Buis Beton</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayBeton">Buis Beton</a>
 			                    </li>
-			                    <li><a href="#!">Buis Beton Belah</a>
+			                    <li><a href="<?php echo base_url()?>/Home/displayBetonbelah">Buis Beton Belah</a>
 			                    </li>
 			                  </ul>
 			                  <!-- End Submenu -->
