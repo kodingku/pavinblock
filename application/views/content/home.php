@@ -93,7 +93,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Cacing</a>
+            <a href="<?php echo base_url() ?>Home/displayCacing" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Cacing</a>
           </h3>
         </header>
       </article>
@@ -112,7 +112,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Segi Enam</a>
+            <a href="<?php echo base_url() ?>Home/displaySegienam" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Segi Enam</a>
           </h3>
         </header>
       </article>
@@ -131,7 +131,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Full Pave</a>
+            <a href="<?php echo base_url() ?>Home/displayFullpave" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Full Pave</a>
           </h3>
         </header>
       </article>
@@ -154,7 +154,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/about" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton</a>
+            <a href="<?php echo base_url() ?>Home/displayBeton" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton</a>
           </h3>
         </header>
       </article>
@@ -173,7 +173,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton Belah</a>
+            <a href="<?php echo base_url() ?>Home/displayBetonbelah" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton Belah</a>
           </h3>
         </header>
       </article>
@@ -192,7 +192,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Topi Uskup</a>
+            <a href="<?php echo base_url() ?>Home/displayUskup" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Topi Uskup</a>
           </h3>
         </header>
       </article>
@@ -211,7 +211,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/kontak" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Trihex</a>
+            <a href="<?php echo base_url() ?>Home/displayTrihex" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Trihex</a>
           </h3>
         </header>
       </article>

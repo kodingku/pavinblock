@@ -84,25 +84,25 @@ if ($this->session->userdata('logged_in'))
 	                          <a class="nav-link" href="<?php echo base_url()?>Bata/display">Bata</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Cacing</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Cacing/display">Cacing</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Segi Enam</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Segienam/display">Segi Enam</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Trihex</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Trihex/display">Trihex</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Full Pave</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Fullpave/display">Full Pave</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Topi Uskup</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Uskup/display">Topi Uskup</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Buis Beton</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Beton/display">Buis Beton</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="../../unify-main/pages/page-about-1.html">Buis Beton Belah</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Betonbelah/display">Buis Beton Belah</a>
 	                        </li>
 	                      </ul>
 	                      <!-- End Submenu (level 2) -->
