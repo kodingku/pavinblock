@@ -74,7 +74,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayBata" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Bata</a>
+            <a href="<?php echo base_url() ?>Home/displayBata" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Pavin Block</a>
           </h3>
         </header>
       </article>
@@ -93,7 +93,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayCacing" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Cacing</a>
+            <a href="<?php echo base_url() ?>Home/displayCacing" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Kansten</a>
           </h3>
         </header>
       </article>
@@ -112,7 +112,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displaySegienam" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Segi Enam</a>
+            <a href="<?php echo base_url() ?>Home/displaySegienam" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Grass Block</a>
           </h3>
         </header>
       </article>
@@ -131,7 +131,7 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayFullpave" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Full Pave</a>
+            <a href="<?php echo base_url() ?>Home/displayFullpave" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Batako Press</a>
           </h3>
         </header>
       </article>
@@ -173,50 +173,14 @@
         <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
           
           <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayBetonbelah" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Buis Beton Belah</a>
+            <a href="<?php echo base_url() ?>Home/displayBetonbelah" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> U Dith</a>
           </h3>
         </header>
       </article>
       <!-- End Article -->
     </div>
 
-     <div class="col-lg-3 g-mb-30">
-      <!-- Article -->
-      <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
-          <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/topiuskup.png" alt="Image Description">
-        </figure>
-
-       
-
-        <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
-          
-          <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayUskup" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Topi Uskup</a>
-          </h3>
-        </header>
-      </article>
-      <!-- End Article -->
-    </div>
-
-     <div class="col-lg-3 g-mb-30">
-      <!-- Article -->
-      <article class="u-block-hover">
-        <figure class="u-bg-overlay g-bg-black-opacity-0_2--after">
-          <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="<?php echo base_url()?>assets/img/content/trihex.png" alt="Image Description">
-        </figure>
-
-       
-
-        <header class="g-pos-abs g-right-20 g-bottom-10 g-left-20">
-          
-          <h3 class="h2 g-font-weight-600 text-center">
-            <a href="<?php echo base_url() ?>Home/displayTrihex" class="g-color-white btn btn-md u-btn-3d u-btn-primary g-mr-10 g-mb-15"><i class="fas fa-external-link-alt"></i> Trihex</a>
-          </h3>
-        </header>
-      </article>
-      <!-- End Article -->
-    </div>
+     
 
 
    </div>

@@ -30,11 +30,12 @@
   <?php endif; ?>
 
 
-<a href="<?php echo base_url()?>Bata/addBata" class="btn btn-md u-btn-3d u-btn-teal g-mr-10 g-mb-15">+ Data Bata</a>
+<a href="<?php echo base_url()?>Bata/addBata" class="btn btn-md u-btn-3d u-btn-teal g-mr-10 g-mb-15">+ Data Pavin Block</a>
 
 <table id="material" class="display" width="100%">
     <thead>
         <tr class="text-center">
+            <th style="background-color: #47d147;color: #fff;">Nama</th>
             <th style="background-color: #47d147;color: #fff;">Tebal</th>
             <th style="background-color: #ffad33;color: #fff;">Harga(Rp) / m2</th>
             <th style="background-color: #444;color: #fff;">Isi / m2</th>
@@ -45,6 +46,7 @@
     <tbody>
     	 <?php foreach($data_bata as $value) { ?>
     	<tr class="text-center">
+        <td><?php echo $value->nama; ?></td>
     		<td><?php echo $value->tebal; ?></td>
     		<td><?php echo number_format($value->harga); ?></td>
     		<td><?php echo $value->isi; ?></td>

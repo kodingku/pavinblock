@@ -1,7 +1,7 @@
 <section class="container-fluid g-mt-100">
 	<div class="row">
 		<div class="col-md-6">
-			<div class="u-shadow-v1-5 g-mb-30"> <img class="img-fluid w-100" src="<?php echo base_url();?>assets/img/service/1.jpg" alt="Image Description"> </div> 
+			<div class="u-shadow-v1-5 g-mb-30"> <img class="img-fluid w-100" src="<?php echo base_url();?>assets/img/service/1.jpg" alt="Image Description" style="height: 330px;"> </div> 
 		</div>
 		<div class="col-md-6">
 			<div class="u-shadow-v1-5 g-line-height-2 g-pa-40 g-mb-30" role="alert">

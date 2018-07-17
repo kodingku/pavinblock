@@ -12,10 +12,37 @@
 
  ?>
 
-<?php echo form_open_multipart('Bata/update/'.$data_bata->id_pavin.'',$attributes); ?>
+<?php echo form_open_multipart('Bata/update_bata/'.$data_bata->id_pavin.'',$attributes); ?>
 
 
-<h2 class="text-center">Form Edit Data Bata</h2>
+<h2 class="text-center">Form Edit Data </h2>
+
+<div class="form-group">
+
+<?php echo form_label('Upload Barang'); ?>
+	
+	<input type="file" name="fl_photo">
+</div>
+
+<div class="form-group ">
+<?php echo form_label('Nama Barang'); ?>
+	<?php 
+
+		$data = array(
+
+				'class' => 'form-control',
+				'name' => 'nama',
+				'value' => $data_bata->nama
+
+		);
+
+	?>
+
+	<?php echo form_input($data); ?>
+
+</div>
+
+
 <div class="form-group ">
 <?php echo form_label('Tebal'); ?>
 	<?php 

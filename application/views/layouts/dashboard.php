@@ -81,28 +81,26 @@ if ($this->session->userdata('logged_in'))
 	                      <!-- Submenu (level 2) -->
 	                      <ul class="hs-sub-menu " id="nav-submenu--pages--about" aria-labelledby="nav-link--pages--about">
 	                        <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Bata/display">Bata</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Bata/display">Pavin Block</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Cacing/display">Cacing</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Cacing/display">Kansteen</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Segienam/display">Segi Enam</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Segienam/display">Grass Block</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Trihex/display">Trihex</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Trihex/display">Batako Press</a>
 	                        </li>
 	                         <li class="dropdown-item ">
 	                          <a class="nav-link" href="<?php echo base_url()?>Fullpave/display">Full Pave</a>
 	                        </li>
-	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Uskup/display">Topi Uskup</a>
-	                        </li>
+	                         
 	                         <li class="dropdown-item ">
 	                          <a class="nav-link" href="<?php echo base_url()?>Beton/display">Buis Beton</a>
 	                        </li>
 	                         <li class="dropdown-item ">
-	                          <a class="nav-link" href="<?php echo base_url()?>Betonbelah/display">Buis Beton Belah</a>
+	                          <a class="nav-link" href="<?php echo base_url()?>Betonbelah/display">U dith</a>
 	                        </li>
 	                      </ul>
 	                      <!-- End Submenu (level 2) -->

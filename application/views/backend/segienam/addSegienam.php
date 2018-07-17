@@ -15,7 +15,35 @@
 <?php echo form_open_multipart('Segienam/store',$attributes); ?>
 
 
-<h2 class="text-center">Form Tambah Data Segienam</h2>
+<h2 class="text-center">Form Tambah Data </h2>
+
+<div class="form-group">
+			<?php echo form_label('Upload Foto'); ?>
+		
+				<input type="file" name="fl_photo" class="form-control col-md-6" required="required">
+				<span>*Maksimum 1Mb File Upload</span>
+</div>
+
+
+<div class="form-group ">
+<?php echo form_label('Nama Barang'); ?>
+	<?php 
+
+		$data = array(
+
+				'class' => 'form-control',
+				'name' => 'nama',
+				'placeholder' => 'masukan nama barang'
+
+		);
+
+	?>
+
+	<?php echo form_input($data); ?>
+
+</div>
+
+
 <div class="form-group ">
 <?php echo form_label('Tebal'); ?>
 	<?php 

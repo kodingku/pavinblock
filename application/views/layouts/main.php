@@ -82,22 +82,19 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 			                  <a href="#!" class="nav-link" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Produk</a>
 			                  <!-- Submenu -->
 			                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
-			                    <li><a href="<?php echo base_url()?>/Home/displayBata">Bata</a>
+			                    <li><a href="<?php echo base_url()?>Home/displayBata">Pavin Block</a>
 			                    </li>
 			                    
-			                    <li><a href="<?php echo base_url()?>/Home/displayCacing">Cacing</a>
+			                    <li><a href="<?php echo base_url()?>Home/displayCacing">Kansteen</a>
 			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displaySegienam">Segi Enam</a>
+			                    <li><a href="<?php echo base_url()?>Home/displaySegienam">Grass Block</a>
 			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displayTrihex">Trihex</a>
+			                    <li><a href="<?php echo base_url()?>Home/displayTrihex">Batako Press</a>
 			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displayFullpave">Full Pave</a>
+			                    
+			                    <li><a href="<?php echo base_url()?>Home/displayBeton">Buis Beton</a>
 			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displayUskup">Topi Uskup</a>
-			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displayBeton">Buis Beton</a>
-			                    </li>
-			                    <li><a href="<?php echo base_url()?>/Home/displayBetonbelah">Buis Beton Belah</a>
+			                    <li><a href="<?php echo base_url()?>Home/displayBetonbelah">U dith</a>
 			                    </li>
 			                  </ul>
 			                  <!-- End Submenu -->
@@ -106,7 +103,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 			                  <a href="#!" class="nav-link" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Services</a>
 			                  <!-- Submenu -->
 			                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
-			                    <li><a href="<?php echo base_url()?>/Home/jasaPaving">Jasa Pemasangan Paving Block</a>
+			                    <li><a href="<?php echo base_url()?>Home/jasaPaving">Jasa Pemasangan Paving Block</a>
 			                    </li>
 			                    
 			                    
